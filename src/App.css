@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+
+.Product{
+  border: 1px solid black;
+  margin-top: 10px;
+  height: 530px;
+  width: 255px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: aquamarine;
+  transition: 2s;
+}
+.Product:hover{
+ box-shadow: black 16px 6px;
+ background-color: cornsilk;
+ opacity: 5;
+ cursor: not-allowed;
+}
+.Allproduct{
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+button{
+  border: none;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: azure;
+}
+button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+.img{
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.head{
+  
+  position: sticky;
+  
+  color: red;
+}
